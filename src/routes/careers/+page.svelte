@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Founder-led onboarding",
+    description: "Get 2-day in-person training directly from our CEO. We're hands-on from day one, and you connect with the heart of Probook early.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Direct impact, daily growth",
+    description: "See your work drive revenue, efficiency, and customer success for real companies. Grow your skills with real customers and a team that cares.",
+    icon: IconUsers
+  },
+  {
+    title: "Support at startup speed",
+    description: "Twice-weekly check-ins, 24/7 direct access to founders, and a culture that solves problems quickly. You’re never on your own here.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,83 +121,85 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Alicia Thompson",
+    position: "Software Engineer",
+    company: "Engineering",
+    quote:
+      "At Probook, I feel empowered to bring my ideas to life within a team that truly cares. The honest feedback, real mentorship, and everyday collaboration make it feel like I’m building something meaningful—and growing every day.",
+    image: "/generated/image-a-black-female-engineer-smiling-with-con.webp"
+  },
+  {
+    name: "Ravi Patel",
+    position: "Customer Experience Specialist",
+    company: "Support",
+    quote:
+      "Joining Probook’s support team opened doors I never expected. We openly share wins and challenges, and leadership trusts us to suggest improvements. Everyone's voice counts here, no matter your role.",
+    image: "/generated/image-a-south-asian-male-customer-support-repr.webp"
+  },
+  {
+    name: "Susan Lawrence",
+    position: "VP of Operations",
+    company: "Leadership",
+    quote:
+      "I've worked in larger companies, but nothing compares to the transparency and energy here. You’re encouraged to try new things, fail fast, and get right back up. The environment is ambitious but kind—we lift each other up every day.",
+    image: "/generated/image-a-white-senior-woman-in-a-leadership-rol.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description: "Send us your resume and a few sentences on why you want to join Probook."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "We'll reach out within 3-5 days for a brief conversation about your background and what you're looking for."
+  },
+  {
+    step: 3,
+    title: "Skills discussion",
+    description: "Meet the team to discuss a real scenario or problem in your discipline—collaborative and practical."
+  },
+  {
+    step: 4,
+    title: "Final chat & offer",
+    description: "Wrap up with the CEO or team lead, review the details, and get clear next steps. Expect a decision in as little as a week."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Customer-obsessed",
+    description: "Every decision starts with the needs of our dispatchers and techs. We build with them—not just for them."
+  },
+  {
+    icon: IconUsers,
+    title: "Move fast, stay real",
+    description: "We bias to action, try new things, and always own the outcome. Honest feedback and humility guide every step."
+  },
+  {
+    icon: IconGlobe,
+    title: "Hands-on at every level",
+    description: "From CEO onboarding to high-frequency support, everyone’s connected and involved. No ivory towers here."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Rebuilding home services with smarter tools"
+	subtitle="Join a team using AI to make real-world impact"
+	imageSrc="/generated/image-a-diverse-group-of-people-collaborating-.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Shape the future of home services technology, grow alongside founders, and make a visible impact every day." />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}

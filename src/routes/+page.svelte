@@ -7,16 +7,56 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Dispatching that works for real teams"
+  subtitle="Probook helps home service companies get more jobs sold, reduce dispatcher workload, and assign the right tech every time—no constant babysitting required."
+  customers={[
+    {
+      name: "Jamie, Dispatcher at TR Miller Heating & Cooling",
+      position: "Dispatcher",
+      imageSrc: "/generated/image-a-smiling-woman-dispatcher-in-a-modern-h.webp",
+      testimonial: "We’re doing more jobs per day with fewer calls back and less hassle. It just lines up the day right."
+    },
+    {
+      name: "Chris, Service Manager at Auchinachie Plumbing • Heating • Air",
+      position: "Service Manager",
+      imageSrc: "/generated/image-a-male-service-technician-in-a-plumbing-.webp",
+      testimonial: "Probook freed up my dispatcher to manage twice the number of techs. It’s doing the thinking for you."
+    },
+    {
+      name: "Beth, Owner at Lion Home Service",
+      position: "Owner",
+      imageSrc: "/generated/image-a-friendly-woman-dispatcher-in-an-electr.webp",
+      testimonial: "Our average ticket is up, and our team actually trusts the board now. That’s the difference."
+    },
+    {
+      name: "Eric, Ops Lead at Blake Brothers Plumbing & Electric",
+      position: "Ops Lead",
+      imageSrc: "/generated/image-a-male-hvac-service-manager-in-an-operat.webp",
+      testimonial: "Once we hit Autopilot, our board just worked. We went from 10 to 20 techs on one dispatcher, no sweat."
+    },
+    {
+      name: "Natalie, Operations Manager at True Service Pros",
+      position: "Operations Manager",
+      imageSrc: "/generated/image-a-female-operations-manager-in-a-home-se.webp",
+      testimonial: "Probook made our dispatching process effortless and let us grow without adding more staff."
+    },
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/ars.com',
+		'https://logo.clearbit.com/rotorooter.com',
+		'https://logo.clearbit.com/benfranklinplumbing.com',
+		'https://logo.clearbit.com/mistersparky.com'
+	]}
+/>
 
 <Summary
 	generating
